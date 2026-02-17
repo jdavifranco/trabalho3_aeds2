@@ -1,0 +1,7 @@
+experimento,tamanho_texto,tamanho_padrao,ocorrencias_esperadas,algoritmo,tempo_ms,tempo_preprocessamento_ms,comparacoes,ocorrencias_encontradas
+pior_caso,99986,100,1,Força Bruta,12.20100,0.00000,9983754,2
+pior_caso,99986,100,1,Rabin-Karp,0.64300,0.00300,200127,2
+pior_caso,99986,100,1,KMP,0.35000,0.01200,199973,2
+pior_caso,99986,100,1,Boyer-Moore,0.30400,0.01100,501,2
+pior_caso,99986,100,1,Boyer-Moore-Horspool,1.31000,0.01600,199873,2
+pior_caso,99986,100,1,Boyer-Moore-Horspool-Sunday,6.40100,0.01400,5042047,2

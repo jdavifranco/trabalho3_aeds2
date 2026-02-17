@@ -1,0 +1,61 @@
+experimento,tamanho_texto,tamanho_padrao,ocorrencias,algoritmo,tempo_ms,tempo_preprocessamento_ms,comparacoes
+alfabeto_grande,9990,10,3,Força Bruta,0.03100,0.00000,10159
+alfabeto_grande,9990,10,3,Rabin-Karp,0.08200,0.00000,20094
+alfabeto_grande,9990,10,3,KMP,0.09100,0.00500,19977
+alfabeto_grande,9990,10,3,Boyer-Moore,0.01200,0.00400,76
+alfabeto_grande,9990,10,3,Boyer-Moore-Horspool,0.03300,0.00700,2187
+alfabeto_grande,9990,10,3,Boyer-Moore-Horspool-Sunday,0.03100,0.00700,2047
+alfabeto_pequeno_dna,9992,8,5,Força Bruta,0.06900,0.00000,13383
+alfabeto_pequeno_dna,9992,8,5,Rabin-Karp,0.08800,0.00000,20155
+alfabeto_pequeno_dna,9992,8,5,KMP,0.12700,0.00300,19094
+alfabeto_pequeno_dna,9992,8,5,Boyer-Moore,0.03200,0.00400,1007
+alfabeto_pequeno_dna,9992,8,5,Boyer-Moore-Horspool,0.07600,0.00400,6955
+alfabeto_pequeno_dna,9992,8,5,Boyer-Moore-Horspool-Sunday,0.06800,0.00400,6114
+muitas_ocorrencias,9700,3,100,Força Bruta,0.03800,0.00000,10444
+muitas_ocorrencias,9700,3,100,Rabin-Karp,0.09200,0.00000,19981
+muitas_ocorrencias,9700,3,100,KMP,0.07300,0.00100,19102
+muitas_ocorrencias,9700,3,100,Boyer-Moore,0.03500,0.00200,441
+muitas_ocorrencias,9700,3,100,Boyer-Moore-Horspool,0.07600,0.00200,7081
+muitas_ocorrencias,9700,3,100,Boyer-Moore-Horspool-Sunday,0.08300,0.00200,5837
+padrao_curto,49997,3,7,Força Bruta,0.10200,0.00000,52054
+padrao_curto,49997,3,7,Rabin-Karp,0.30700,0.00000,100568
+padrao_curto,49997,3,7,KMP,0.17400,0.00100,99908
+padrao_curto,49997,3,7,Boyer-Moore,0.08800,0.00200,708
+padrao_curto,49997,3,7,Boyer-Moore-Horspool,0.19900,0.00100,35355
+padrao_curto,49997,3,7,Boyer-Moore-Horspool-Sunday,0.19700,0.00100,27628
+padrao_longo,49950,50,9,Força Bruta,0.11500,0.00000,52369
+padrao_longo,49950,50,9,Rabin-Karp,0.43700,0.00100,100835
+padrao_longo,49950,50,9,KMP,0.19800,0.00500,99536
+padrao_longo,49950,50,9,Boyer-Moore,0.03200,0.01600,695
+padrao_longo,49950,50,9,Boyer-Moore-Horspool,0.07200,0.02200,5235
+padrao_longo,49950,50,9,Boyer-Moore-Horspool-Sunday,0.05400,0.01600,5423
+pior_caso,1000,100,901,Força Bruta,0.22600,0.00000,91902
+pior_caso,1000,100,901,Rabin-Karp,0.24600,0.00300,93703
+pior_caso,1000,100,901,KMP,0.02600,0.01300,1200
+pior_caso,1000,100,901,Boyer-Moore,0.21000,0.02300,90401
+pior_caso,1000,100,10,Boyer-Moore-Horspool,0.03600,0.03300,1109
+pior_caso,1000,100,901,Boyer-Moore-Horspool-Sunday,0.19800,0.02400,92002
+poucas_ocorrencias,9991,3,2,Força Bruta,0.03600,0.00000,10377
+poucas_ocorrencias,9991,3,2,Rabin-Karp,0.08300,0.00000,20085
+poucas_ocorrencias,9991,3,2,KMP,0.06200,0.00100,19971
+poucas_ocorrencias,9991,3,2,Boyer-Moore,0.02600,0.00200,186
+poucas_ocorrencias,9991,3,2,Boyer-Moore-Horspool,0.08200,0.00600,7100
+poucas_ocorrencias,9991,3,2,Boyer-Moore-Horspool-Sunday,0.08800,0.00800,5503
+texto_grande,99985,15,8,Força Bruta,0.24300,0.00000,101678
+texto_grande,99985,15,8,Rabin-Karp,3.73800,0.00400,201108
+texto_grande,99985,15,8,KMP,0.32800,0.00200,199871
+texto_grande,99985,15,8,Boyer-Moore,0.03800,0.00300,273
+texto_grande,99985,15,8,Boyer-Moore-Horspool,0.20200,0.00800,14951
+texto_grande,99985,15,8,Boyer-Moore-Horspool-Sunday,0.11700,0.00600,14114
+texto_medio,9990,10,7,Força Bruta,0.59000,0.00000,10431
+texto_medio,9990,10,7,Rabin-Karp,1.03100,0.00200,20146
+texto_medio,9990,10,7,KMP,0.83100,0.00300,19924
+texto_medio,9990,10,7,Boyer-Moore,0.18000,0.01200,148
+texto_medio,9990,10,7,Boyer-Moore-Horspool,0.22800,0.00800,2565
+texto_medio,9990,10,7,Boyer-Moore-Horspool-Sunday,0.21400,0.00800,2402
+texto_pequeno,95,5,3,Força Bruta,0.02600,0.00000,148
+texto_pequeno,95,5,3,Rabin-Karp,0.04400,0.02900,203
+texto_pequeno,95,5,3,KMP,0.06200,0.04900,167
+texto_pequeno,95,5,3,Boyer-Moore,0.08700,0.07800,42
+texto_pequeno,95,5,3,Boyer-Moore-Horspool,0.03800,0.02600,87
+texto_pequeno,95,5,3,Boyer-Moore-Horspool-Sunday,0.03100,0.01900,104

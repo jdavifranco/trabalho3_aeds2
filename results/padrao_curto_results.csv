@@ -1,0 +1,7 @@
+experimento,tamanho_texto,tamanho_padrao,ocorrencias_esperadas,algoritmo,tempo_ms,tempo_preprocessamento_ms,comparacoes,ocorrencias_encontradas
+padrao_curto,49997,3,3,Força Bruta,0.19200,0.00000,52085,5
+padrao_curto,49997,3,3,Rabin-Karp,0.50800,0.00200,100534,5
+padrao_curto,49997,3,3,KMP,0.35500,0.00100,99905,5
+padrao_curto,49997,3,3,Boyer-Moore,0.14400,0.00300,691,5
+padrao_curto,49997,3,3,Boyer-Moore-Horspool,0.29800,0.00200,35386,5
+padrao_curto,49997,3,3,Boyer-Moore-Horspool-Sunday,0.27500,0.00300,27680,5

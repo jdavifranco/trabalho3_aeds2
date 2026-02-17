@@ -1,0 +1,7 @@
+tamanho_texto,tamanho_padrao,ocorrencias,algoritmo,tempo_ms,tempo_preprocessamento_ms,comparacoes
+9990,8,3,Força Bruta,0.03500,0.00000,10149
+9990,8,3,Rabin-Karp,0.08200,0.00000,20089
+9990,8,3,KMP,0.06600,0.00200,19977
+9990,8,3,Boyer-Moore,0.01200,0.00300,78
+9990,8,3,Boyer-Moore-Horspool,0.03100,0.00700,2693
+9990,8,3,Boyer-Moore-Horspool-Sunday,0.02900,0.00600,2426

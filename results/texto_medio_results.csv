@@ -1,0 +1,7 @@
+experimento,tamanho_texto,tamanho_padrao,ocorrencias_esperadas,algoritmo,tempo_ms,tempo_preprocessamento_ms,comparacoes,ocorrencias_encontradas
+texto_medio,9990,10,7,Força Bruta,1.25500,0.00000,10453,7
+texto_medio,9990,10,7,Rabin-Karp,1.49400,0.00400,20147,7
+texto_medio,9990,10,7,KMP,0.98000,0.00300,19920,7
+texto_medio,9990,10,7,Boyer-Moore,0.10300,0.01000,153,7
+texto_medio,9990,10,7,Boyer-Moore-Horspool,0.25400,0.00400,2498,7
+texto_medio,9990,10,7,Boyer-Moore-Horspool-Sunday,0.28800,0.00900,2436,7
