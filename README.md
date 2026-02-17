@@ -16,23 +16,6 @@ Este projeto implementa e compara diferentes algoritmos de busca de padrões em 
 5. **Boyer-Moore-Horspool** - Complexidade: Sublinear médio
 6. **Boyer-Moore-Horspool-Sunday** - Complexidade: Sublinear médio
 
-## 🚀 Executando o Programa
-
-```bash
-# 1. Gerar os arquivos de experimento (execute uma única vez)
-dart run bin/generate_experiments.dart
-
-# 2. Executar os experimentos e gerar relatórios CSV
-dart run bin/tp03.dart
-
-# 3. Gerar tabelas comparativas
-python bin/generate_table.py
-
-# 4. Gerar gráficos 
-python bin/generate_graphics.py
-```
-
-Os arquivos de experimento são salvos em `experiments/` e reutilizados em todas as execuções. Os resultados (CSVs e gráficos) são salvos em `results/`.
 
 ## 📊 Resultados
 
@@ -159,6 +142,26 @@ Os arquivos de experimento são salvos em `experiments/` e reutilizados em todas
 | Boyer-Moore-Horspool-Sunday | 6,401 | 0,014 | 5042047 |
 
 ---
+
+## 🚀 Executando o Programa
+
+```bash
+# 1. Gerar os arquivos de experimento
+dart run bin/generate_experiments.dart
+
+# 2. Executar os experimentos e gerar relatórios CSV
+dart run bin/tp03.dart
+
+# 3. Gerar tabelas comparativas
+python bin/generate_table.py
+
+# 4. Gerar gráficos 
+python bin/generate_graphics.py
+```
+
+Os arquivos de experimento são salvos em `experiments/` e reutilizados em todas as execuções. Os resultados (CSVs e gráficos) são salvos em `results/`.
+
+
 
 ## 📄 Licença
 
